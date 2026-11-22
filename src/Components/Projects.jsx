@@ -35,8 +35,8 @@ function Projects() {
               <span>React</span>
             </div>
 
-            <a href="#home" className="project-link">
-              View Project →
+            <a href="https://github.com/amjathamju87-coder/AmjathPortfolio" className="project-link">
+              View code →
             </a>
 
           </div>
@@ -47,22 +47,20 @@ function Projects() {
 
             <span className="project-number">02</span>
 
-            <h2>Employee Portal</h2>
+            <h2>Task Dashboard</h2>
 
             <p>
-              An employee management portal that
-              displays employee information such
-              as name, email and location.
+              Designed and developed a Smart Task Dashboard using HTML, CSS, and JavaScript, featuring task creation, editing, deletion, priority management, and progress tracking through a clean, responsive, and user-friendly interface.
             </p>
 
             <div className="project-tech">
-              <span>React</span>
+              <span>HTML</span>
               <span>CSS</span>
               <span>JavaScript</span>
             </div>
 
-            <a href="#home" className="project-link">
-              View Project →
+            <a href="https://github.com/amjathamju87-coder/AmjathPortfolio" className="project-link">
+              View Code→
             </a>
 
           </div>
@@ -73,12 +71,10 @@ function Projects() {
 
             <span className="project-number">03</span>
 
-            <h2>Registration Form</h2>
+            <h2>Coffee Shop</h2>
 
             <p>
-              A registration form with input fields,
-              form validation and error messages
-              to provide a better user experience.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus, tempore veniam sint nihil, harum distinctio dignissimos placeat amet vel aliquid repellat laudantium explicabo dolor sit nulla. Eveniet, quos in?
             </p>
 
             <div className="project-tech">
@@ -87,8 +83,8 @@ function Projects() {
               <span>JavaScript</span>
             </div>
 
-            <a href="#home" className="project-link">
-              View Project →
+            <a href="https://github.com/amjathamju87-coder/coffee-shop" className="project-link">
+              View Code →
             </a>
 
           </div>
