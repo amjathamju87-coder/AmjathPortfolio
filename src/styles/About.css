@@ -1,0 +1,194 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about {
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: white;
+  padding: 70px 9%;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Heading */
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.about-heading span {
+  color: #38bdf8;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.about-heading h1 {
+  font-size: 45px;
+  margin: 15px 0;
+}
+
+.about-heading h1 b {
+  color: #38bdf8;
+}
+
+.about-heading p {
+  color: #94a3b8;
+  font-size: 16px;
+}
+
+/* About Content */
+
+.about-content {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 65px;
+}
+
+.about-left,
+.about-right {
+  width: 50%;
+  background-color: #1e293b;
+  padding: 35px;
+  border-radius: 15px;
+  border: 1px solid #334155;
+}
+
+.about-left h2,
+.about-right h2 {
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+.about-left h2 span,
+.about-right h2 span {
+  color: #38bdf8;
+}
+
+.about-left h3 {
+  color: #38bdf8;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  color: #cbd5e1;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* Goal Info */
+
+.goal-info {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #0f172a;
+  border-left: 4px solid #38bdf8;
+  border-radius: 8px;
+}
+
+.goal-info h3 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.goal-info p {
+  margin-bottom: 0;
+}
+
+/* Interests */
+
+.interests h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.interests h2 span {
+  color: #38bdf8;
+}
+
+.interest-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.interest-card {
+  background-color: #1e293b;
+  padding: 25px 15px;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  transition: 0.3s;
+}
+
+.interest-card:hover {
+  transform: translateY(-7px);
+  border-color: #38bdf8;
+  background-color: #26364c;
+}
+
+.interest-card h3 {
+  color: #38bdf8;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+.interest-card p {
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .about {
+    padding: 50px 20px;
+  }
+
+  .about-heading h1 {
+    font-size: 35px;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+  }
+
+  .interest-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .interest-list {
+    grid-template-columns: 1fr;
+  }
+
+  .about-left,
+  .about-right {
+    padding: 25px;
+  }
+
+  .about-heading h1 {
+    font-size: 30px;
+  }
+
+}

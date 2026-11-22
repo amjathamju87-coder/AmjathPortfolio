@@ -1,0 +1,147 @@
+
+/* Skills Section */
+
+.skills {
+  min-height: 100vh;
+  background-color: #0f172a;
+  padding: 80px 9%;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Container */
+
+.skills-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Heading */
+
+.skills-container h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.skills-container h1 b{
+  color: #38bdf8;
+  
+}
+.skills-container h1::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background-color: #38bdf8;
+  margin: 12px auto;
+  border-radius: 5px;
+}
+
+/* Introduction */
+
+.skills-intro {
+  color: #cbd5e1;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 45px;
+}
+
+/* Skills List */
+
+.skills-list {
+  max-width: 750px;
+  margin: auto;
+}
+
+/* Individual Skill */
+
+.skill {
+  margin-bottom: 30px;
+}
+
+/* Skill Name and Percentage */
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.skill-info h3 {
+  color: white;
+  font-size: 18px;
+}
+
+.skill-info span {
+  color: #38bdf8;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Progress Bar */
+
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background-color: #1e293b;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Progress Values */
+
+.html-progress {
+  width: 90%;
+  height: 100%;
+  background-color: #38bdf8;
+  border-radius: 20px;
+}
+
+.css-progress {
+  width: 85%;
+  height: 100%;
+  background-color: #38bdf8;
+  border-radius: 20px;
+}
+
+.javascript-progress {
+  width: 75%;
+  height: 100%;
+  background-color: #38bdf8;
+  border-radius: 20px;
+}
+
+.react-progress {
+  width: 70%;
+  height: 100%;
+  background-color: #38bdf8;
+  border-radius: 20px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+  .skills {
+    padding: 60px 20px;
+  }
+
+  .skills-container h1 {
+    font-size: 32px;
+  }
+
+  .skills-intro {
+    font-size: 14px;
+  }
+
+  .skill-info h3 {
+    font-size: 16px;
+  }
+
+}
