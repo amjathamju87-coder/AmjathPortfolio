@@ -105,7 +105,7 @@ Message: ${formData.message}`;
 
           <div className="contact-form">
 
-            <h2>Reach Me Here</h2>
+            <h2>Let's Discuss Opportunities</h2>
 
             <form onSubmit={handleSubmit}>
 
