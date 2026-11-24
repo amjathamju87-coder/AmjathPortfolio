@@ -14,25 +14,21 @@ function Home() {
           </span>
 
           <h1>
-            Hi, I'm <span>Amjath</span>
+            Hellow, I'm <span>Amjath</span>
           </h1>
 
           <h2>Frontend Developer.</h2>
 
-          <p className="intro">
-            I'm <b>Amjath</b>
+          <p className="description">
+            I’m a passionate Frontend Developer dedicated to building modern, responsive, and user-friendly web applications.
           </p>
 
           <p className="description">
-            Welcome to my portfolio! I am passionate
-            about web development and creating
-            beautiful, user-friendly websites.
+            I specialize increating clean and interactive web interfaces using HTML, CSS, JavaScript, and React. I focus on delivering seamless user experiences through creative designs and efficient development.
           </p>
-
           <p className="description">
-            I have learned HTML, CSS, JavaScript
-            and React. I enjoy learning new
-            technologies and building projects.
+
+            I’m continuously exploring new technologies, enhancing my technical skills, and turning creative ideas into functional digital experiences.
           </p>
 
           <div className="home-buttons">

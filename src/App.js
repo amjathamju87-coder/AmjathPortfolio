@@ -20,11 +20,12 @@ function App() {
       <section id="skills">
         <Skills />
       </section>
+        <section id="Projects">
+        <Projects/>
       <section id="Education">
         <Education/>
       </section>
-      <section id="Projects">
-        <Projects/>
+    
       </section>
       <section id="contact">
         <Contact />

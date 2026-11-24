@@ -18,37 +18,38 @@ function About() {
         <div className="about-content">
 
           <div className="about-left">
-            <h2>Hello! I'm <span>Amjath</span></h2>
+            <h2> I'm <span>Amjath</span></h2>
 
             <h3>Frontend Developer</h3>
 
             <p>
-              I am a passionate Frontend Developer
-              who enjoys creating modern, attractive
-              and user-friendly websites.
+              I am an enthusiastic Frontend Developer with a strong interest in designing and developing modern, responsive, and user-friendly web applications.
             </p>
 
             <p>
-              I have learned HTML, CSS, JavaScript
-              and React. I enjoy learning new
-              technologies and improving my
-              development skills through projects.
+              I have hands-on knowledge of HTML, CSS, JavaScript, and React, with a focus on building clean interfaces, interactive components, and seamless user experiences.
+            </p>
+            <p>
+              I have hands-on knowledge of HTML, CSS, JavaScript, and React, with a focus on building clean interfaces, interactive components, and seamless user experiences.
+
+            </p>
+            <p>
+              My goal is to grow as a developer, contribute to meaningful projects, and create digital experiences that combine functionality, usability, and modern design.
+
             </p>
           </div>
 
           <div className="about-right">
-            <h2>My <span>Goal</span></h2>
+            <h2>My <span> Career Goal</span></h2>
 
             <p>
-              My goal is to become a professional
-              Frontend Developer and build creative
-              web applications that provide a
-              great user experience.
+              My ambition is to grow as a skilled Frontend Developer by building innovative, responsive, and user-focused web applications. I aim to continuously enhance my technical expertise, explore emerging technologies, and deliver meaningful digital experiences through creative problem-solving.
+           
             </p>
 
             <div className="goal-info">
-              <h3>My Focus</h3>
-              <p>Learning • Creating • Improving</p>
+              <h3>My Core Values</h3>
+              <p>Learn • Innovate • Develop • Grow</p>
             </div>
           </div>
 

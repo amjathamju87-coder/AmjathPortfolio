@@ -1,15 +1,15 @@
 
 import "../styles/Footer.css";
 
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 function Footer() {
   return (
     <footer className="footer">
 
-      <h2>Amjath</h2>
+      <h2>Amjath M</h2>
 
-      <p>Frontend Developer | React Developer</p>
+      <p>Frontend Developer</p>
 
      
       <div className="footer-icons">
@@ -22,15 +22,13 @@ function Footer() {
           <FaLinkedin />
         </a>
 
-        <a href="https://www.instagram.com/_amjath.amju_?jplx=MTQ5bTJqOWNudG8xZQ%3D%3D">
-          <FaInstagram />
+        <a href="mailto:amjathamju87@gmail.com">
+          <FaEnvelope/>
         </a>
 
       </div>
 
-      <p className="footer-copy">
-        © 2026 Amjath. All Rights Reserved.
-      </p>
+      
 
     </footer>
   );

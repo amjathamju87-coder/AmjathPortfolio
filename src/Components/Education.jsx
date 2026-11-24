@@ -27,6 +27,7 @@ function Education() {
             <h2>Postgraduate</h2>
 
             <h3>kalasalingam University, krishnankoil</h3>
+            <h4>Master of Computer Application</h4>
 
             <p>
                 75%
@@ -48,6 +49,7 @@ function Education() {
             <h2>Bachelor's Degree</h2>
 
             <h3>Sadakathullah Appa college, Tirunelveli</h3>
+            <h4>Bachelor of Computer Applications</h4>
 
             <p>
                 60%

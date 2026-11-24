@@ -1,5 +1,5 @@
+import { useState } from "react";
 import "../styles/Contact.css";
-
 import {
   FaEnvelope,
   FaMapMarkerAlt,
@@ -8,6 +8,42 @@ import {
 } from "react-icons/fa";
 
 function Contact() {
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: ""
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // WhatsApp Number
+    const phoneNumber = "919087971012";
+
+    // WhatsApp Message Format
+    const whatsappMessage = `Hello Amjath,
+
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+Message: ${formData.message}`;
+
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+    window.open(whatsappURL, "_blank");
+  };
+
   return (
     <div className="contact">
 
@@ -69,29 +105,43 @@ function Contact() {
 
           <div className="contact-form">
 
-            <form>
+            <h2>Reach Me Here</h2>
+
+            <form onSubmit={handleSubmit}>
 
               <input
                 type="text"
+                name="name"
                 placeholder="Your Name"
+                value={formData.name}
+                onChange={handleChange}
                 required
               />
 
               <input
                 type="email"
+                name="email"
                 placeholder="Your Email"
+                value={formData.email}
+                onChange={handleChange}
                 required
               />
 
               <input
-                type="text"
-                placeholder="Subject"
+                type="tel"
+                name="phone"
+                placeholder="Your Phone number"
+                value={formData.phone}
+                onChange={handleChange}
                 required
               />
 
               <textarea
+                name="message"
                 placeholder="Your Message"
                 rows="5"
+                value={formData.message}
+                onChange={handleChange}
                 required
               ></textarea>
 

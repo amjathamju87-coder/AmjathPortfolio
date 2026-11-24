@@ -1,4 +1,3 @@
-
 /* Education Section */
 
 .education {
@@ -23,7 +22,7 @@
   margin-bottom: 15px;
 }
 
-.education-container h1 b{
+.education-container h1 b {
   color: #38bdf8;
 }
 
@@ -86,7 +85,7 @@
 
 .education-card h2 {
   color: white;
-  font-size: 23px;
+  font-size: 18px;
   margin-top: 12px;
   margin-bottom: 8px;
 }
@@ -95,17 +94,25 @@
 
 .education-card h3 {
   color: #38bdf8;
-  font-size: 17px;
+  font-size: 23px;
   margin-bottom: 12px;
+  font-weight: bold;
+}
+.education-card h4{
+  color: white;
+  font-size: 23px;
+  margin-bottom: 12px;
+  font-weight: bold;
 }
 
 /* Description */
 
 .education-card p {
   color: #cbd5e1;
-  font-size: 15px;
+  font-size: 23px;
   line-height: 1.7;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
 /* Status */

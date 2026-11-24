@@ -74,7 +74,7 @@ function Projects() {
             <h2>Coffee Shop</h2>
 
             <p>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus, tempore veniam sint nihil, harum distinctio dignissimos placeat amet vel aliquid repellat laudantium explicabo dolor sit nulla. Eveniet, quos in?
+              Designed and developed a modern, responsive Coffee Shop Website using HTML, CSS, and JavaScript, featuring an interactive menu, coffee product showcase, engaging homepage, and user-friendly navigation to enhance the customer experience.
             </p>
 
             <div className="project-tech">
