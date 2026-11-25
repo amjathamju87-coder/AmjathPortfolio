@@ -24,9 +24,10 @@ function Projects() {
             <h2>Personal Portfolio</h2>
 
             <p>
-              A personal portfolio website designed
-              to showcase my skills, education,
-              projects and contact information.
+              Designed and developed a modern, responsive personal portfolio website to showcase
+              my technical skills, educational background, and projects. Features a clean 
+              interface, intuitive navigation, and dedicated sections to highlight 
+              my work, experience, and contact information.
             </p>
 
             <div className="project-tech">
@@ -35,8 +36,13 @@ function Projects() {
               <span>React</span>
             </div>
 
-            <a href="https://github.com/amjathamju87-coder/AmjathPortfolio" className="project-link">
-              View code →
+            <a
+              href="https://amjathamju87-coder.github.io/AmjathPortfolio/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Project →
             </a>
 
           </div>
@@ -59,8 +65,13 @@ function Projects() {
               <span>JavaScript</span>
             </div>
 
-            <a href="https://github.com/amjathamju87-coder/AmjathPortfolio" className="project-link">
-              View Code→
+            <a
+              href="https://amjathamju87-coder.github.io/SmartTaskdashboardd/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Project →
             </a>
 
           </div>
@@ -83,8 +94,13 @@ function Projects() {
               <span>JavaScript</span>
             </div>
 
-            <a href="https://github.com/amjathamju87-coder/coffee-shop" className="project-link">
-              View Code →
+            <a
+              href="https://amjathamju87-coder.github.io/coffee-shop/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Project →
             </a>
 
           </div>

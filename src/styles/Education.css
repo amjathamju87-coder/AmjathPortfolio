@@ -108,7 +108,7 @@
 /* Description */
 
 .education-card p {
-  color: #cbd5e1;
+  color: white;
   font-size: 23px;
   line-height: 1.7;
   margin-bottom: 15px;
@@ -124,6 +124,64 @@
   padding: 7px 15px;
   border-radius: 20px;
   font-size: 13px;
+}
+
+/* Education Icons */
+
+.education-year {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.education-year svg {
+  color: #38bdf8;
+}
+
+/* Heading Icons */
+
+.education-card h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.education-card h2 svg {
+  color: white;
+  font-size: 22px;
+}
+
+/* College Icons */
+
+.education-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.education-card h3 svg {
+  color: #38bdf8;
+  font-size: 17px;
+  flex-shrink: 0;
+}
+
+/* Percentage Icon */
+
+.education-card p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.education-card p svg {
+  color:white;
+  font-size: 17px;
+}
+
+/* Hover Effect */
+
+.education-card:hover svg {
+  transition: 0.3s ease;
 }
 
 /* Mobile Responsive */

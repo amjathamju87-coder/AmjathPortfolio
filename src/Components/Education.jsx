@@ -1,5 +1,13 @@
-
 import "../styles/Education.css";
+
+import {
+  FaGraduationCap,
+  FaUniversity,
+  FaBookOpen,
+  FaSchool,
+  FaCalendarAlt,
+  FaAward
+} from "react-icons/fa";
 
 function Education() {
   return (
@@ -16,43 +24,29 @@ function Education() {
         </p>
 
         <div className="education-list">
-            {/* College Education */}
+
+          {/* Postgraduate */}
 
           <div className="education-card">
 
             <span className="education-year">
-              2024 - 2026
+              <FaCalendarAlt /> 2024 - 2026
             </span>
 
-            <h2>Postgraduate</h2>
+            <h2>
+              <FaGraduationCap /> Postgraduate
+            </h2>
 
-            <h3>kalasalingam University, krishnankoil</h3>
-            <h4>Master of Computer Application</h4>
+            <h3>
+              <FaUniversity /> Kalasalingam University, Krishnankoil
+            </h3>
+
+            <h4>
+              Master of Computer Application
+            </h4>
 
             <p>
-                75%
-            </p>
-
-            <span className="education-status">
-              Higher Education
-            </span>
-
-          </div>
-            {/* College  ui Education */}
-
-          <div className="education-card">
-
-            <span className="education-year">
-              2021 - 2024
-            </span>
-
-            <h2>Bachelor's Degree</h2>
-
-            <h3>Sadakathullah Appa college, Tirunelveli</h3>
-            <h4>Bachelor of Computer Applications</h4>
-
-            <p>
-                60%
+              <FaAward /> 75%
             </p>
 
             <span className="education-status">
@@ -61,22 +55,54 @@ function Education() {
 
           </div>
 
-          
-
-          {/* School Education */}
+          {/* Undergraduate */}
 
           <div className="education-card">
 
             <span className="education-year">
-              2020 - 2021
+              <FaCalendarAlt /> 2021 - 2024
             </span>
 
-            <h2>Higher Secondary Education</h2>
+            <h2>
+              <FaGraduationCap /> Bachelor's Degree
+            </h2>
 
-            <h3>SMSS Boys Hr Sec School, Shencottai</h3>
+            <h3>
+              <FaUniversity /> Sadakathullah Appa College, Tirunelveli
+            </h3>
+
+            <h4>
+              Bachelor of Computer Applications
+            </h4>
 
             <p>
-                65%
+              <FaAward /> 60%
+            </p>
+
+            <span className="education-status">
+              Higher Education
+            </span>
+
+          </div>
+
+          {/* Higher Secondary */}
+
+          <div className="education-card">
+
+            <span className="education-year">
+              <FaCalendarAlt /> 2020 - 2021
+            </span>
+
+            <h2>
+              <FaBookOpen /> Higher Secondary Education
+            </h2>
+
+            <h3>
+              <FaSchool /> SMSS Boys Hr Sec School, Shencottai
+            </h3>
+
+            <p>
+              <FaAward /> 65%
             </p>
 
             <span className="education-status">
@@ -85,20 +111,26 @@ function Education() {
 
           </div>
 
-          {/* Secondary Education */}
+          {/* SSLC */}
 
           <div className="education-card">
 
             <span className="education-year">
-              2018 - 2019
+              <FaCalendarAlt /> 2018 - 2019
             </span>
 
-            <h2>SSLC</h2>
+            <h2>
+              <FaBookOpen /> SSLC
+            </h2>
 
-            <h3>SMSS Boys Hr Sec School,Shencottai</h3>
+            <h3>
+              <FaSchool /> SMSS Boys Hr Sec School, Shencottai
+            </h3>
+
             <p>
-             55%
+              <FaAward /> 55%
             </p>
+
             <span className="education-status">
               Completed
             </span>

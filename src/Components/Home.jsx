@@ -1,4 +1,4 @@
-
+import { FaEye,FaEnvelope } from "react-icons/fa";
 import "../styles/Home.css";
 import amjath from "../Assets/amjath_pic.jpg";
 function Home() {
@@ -33,10 +33,12 @@ function Home() {
 
           <div className="home-buttons">
             <a href="#Projects" className="project-btn">
+              <FaEye/>
               View My Projects →
             </a>
 
             <a href="#contact" className="contact-btn">
+              <FaEnvelope/>
               Contact Me
             </a>
           </div>
