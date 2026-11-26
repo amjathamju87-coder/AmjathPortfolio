@@ -99,12 +99,25 @@ body {
 .project-btn {
   background-color: #38bdf8;
   color: #0f172a;
+  transition: 0.3s;
 }
 
 .contact-btn {
   border: 2px solid #38bdf8;
   color: #38bdf8;
 }
+
+/* Hover Effect */
+.project-btn:hover{
+  background-color: aqua;
+  transform: translateY(-3px);
+
+}
+.contact-btn:hover{
+   transform: translateY(-3px);
+}
+
+
 
 /* Floating Labels */
 .react-label,
